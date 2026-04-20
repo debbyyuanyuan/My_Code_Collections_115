@@ -1,0 +1,280 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #ebbaa4;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ee554a34;
+  box-shadow: 0 2px 4px rgba(200, 134, 76, 0.1);
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #f8c59b;
+  border-radius: 4px;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+}
+
+.search-form input[type="text"] {
+  padding: 5px;
+  font-size: 16px;
+  width: 350px;
+}
+
+.search-form button {
+  padding: 6px 12px;
+  margin-left: 5px;
+  background-color: #ffffff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.search-form button:hover {
+  background-color: #edb75f;
+}
+
+.user-actions button {
+  margin-left: 10px;
+  padding: 8px 12px;
+  border: none;
+  background-color: #ee7f00;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  background-color: #fafafa;
+  padding: 10px;
+}
+
+nav button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+nav a {
+  color: rgb(9, 9, 9);
+  text-decoration: none;
+  padding: 10px;
+}
+
+.advertisement {
+  background-color: #bababa;
+  text-align: center;
+  padding: 50px;
+  margin: 20px;
+  position: relative;
+}
+
+.events {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.event {
+  background-color: #eee;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bottom-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.bottom-buttons div {
+  padding: 6px 12px;
+  margin-left: 5px;
+  background-color: #ee7f00;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  padding: 20px;
+}
+
+.search-form button {
+  padding: 6px 12px;
+  margin-left: 5px;
+  background-color: #ee7f00;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.sort-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
+
+.sort-container label {
+  margin-right: 5px;
+  font-size: 16px;
+  height: 30px;
+}
+
+.sort-container select {
+  padding: 5px;
+  font-size: 16px;
+  height: 30px;
+}
+
+aside {
+  width: 20%;
+  padding-right: 20px;
+}
+
+aside h3 {
+  margin-top: 0;
+}
+
+aside label {
+  display: block;
+  margin: 8px 0;
+}
+
+.results {
+  width: 80%;
+  flex-grow: 1;
+}
+
+.availability-bar {
+  background-color: #d9edf7;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #bce8f1;
+  border-radius: 4px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 20px;
+}
+
+.product-preview {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.thumbnail {
+  width: 100%;
+  height: 150px;
+  background-color: #ccc;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.product-preview button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #ee7f00;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.branches-result {
+  display: flex;
+  background-color: #d9edf7;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #bce8f1;
+  border-radius: 4px;
+  width: 70%;
+  height: 20%;
+}
+
+.branches{
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #bce8f1;
+  border-radius: 4px;
+  width: 70%;
+}
+
+.branch {
+  line-height: 1;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  background: #fafafa;
+}
+
+.branch img {
+  width: 200px;
+  height: 150px;
+  background: #ddd;
+  margin-right: 20px;
+}
+
+.branch-info {
+  flex: 1;
+}
+
+.map {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 300px;
+  height: 550px;
+  position: absolute;
+  right: 20px;
+  top: 200px;
+  background: #f9f9f9;
+}
+
+.map-container {
+  display: flex;
+  justify-content: flex-end;
+  width: 300px;
+  height: 550px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #1f1e1e;
+  color: white;
+  margin-top: 20px;
+}
+
+footer input[type="email"] {
+  padding: 6px;
+  border: none;
+  border-radius: 4px;
+}
+
