@@ -1,0 +1,35 @@
+幫我比較以下兩段不同的code，找出規律並解釋同異之處，最後我想要以code2為例，寫出一段可以放上colab的code，然後把code2裡面的圖片原始擋下載下來
+
+code1:
+<div class="thumb section--three__row__single-photo__thumb" itemscope="" itemtype="http://schema.org/ImageObject">
+                        <a href="https://gratisography.com/photo/draculas-dentures/" class="whole section--three__row__single-photo__thumb__whole" rel="bookmark" title="View Dracula’s Dentures">
+                            <img src="https://gratisography.com/wp-content/uploads/2023/10/gratisography-dracula-dentures-800x525.jpg" height="525" width="800" alt="Dracula’s Dentures Free Stock Photo" title="View Dracula’s Dentures Image" itemprop="contentUrl">
+                            <span class="hidden" itemprop="name">Dracula’s Dentures </span>
+                            <span class="hidden" itemprop="license">https://gratisography.com/license/</span>
+                            <span class="hidden" itemprop="acquireLicensePage">https://gratisography.com/about/</span>
+                            </a><a href="https://gratisography.com/photo/draculas-dentures/" class="visit section--three__row__single-photo__thumb__visit" rel="bookmark" title="View Dracula’s Dentures">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.6085 34.6082" width="35" height="35">
+                                    <defs></defs>
+                                    <polygon class="a" points="14.417 7.153 11.417 7.153 11.417 11.417 7.153 11.417 7.153 14.417 11.417 14.417 11.417 18.681 14.417 18.681 14.417 14.417 18.681 14.417 18.681 11.417 14.417 11.417 14.417 7.153"></polygon>
+                                    <path class="a" d="M34.6085,30.3365,23.9207,19.6486A12.9663,12.9663,0,1,0,19.6488,23.92l10.688,10.688ZM3,12.917a9.9173,9.9173,0,1,1,9.9175,9.917A9.9283,9.9283,0,0,1,3,12.917Z"></path>
+                                </svg>
+                            </a>                        
+                    </div>
+					
+					
+code2:
+<div class="thumb section--three__row__single-photo__thumb" itemscope="" itemtype="http://schema.org/ImageObject">
+                        <a href="https://gratisography.com/photo/quack-duck-doctor/" class="whole section--three__row__single-photo__thumb__whole" rel="bookmark" title="View Quack Duck Doctor">
+                            <img src="https://gratisography.com/wp-content/uploads/2023/09/gratisography-duck-doctor-free-stock-photo-800x525.jpg" height="525" width="800" alt="Quack Duck Doctor Free Stock Photo" title="View Quack Duck Doctor Image" itemprop="contentUrl">
+                            <span class="hidden" itemprop="name">Quack Duck Doctor </span>
+                            <span class="hidden" itemprop="license">https://gratisography.com/license/</span>
+                            <span class="hidden" itemprop="acquireLicensePage">https://gratisography.com/about/</span>
+                            </a><a href="https://gratisography.com/photo/quack-duck-doctor/" class="visit section--three__row__single-photo__thumb__visit" rel="bookmark" title="View Quack Duck Doctor">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34.6085 34.6082" width="35" height="35">
+                                    <defs></defs>
+                                    <polygon class="a" points="14.417 7.153 11.417 7.153 11.417 11.417 7.153 11.417 7.153 14.417 11.417 14.417 11.417 18.681 14.417 18.681 14.417 14.417 18.681 14.417 18.681 11.417 14.417 11.417 14.417 7.153"></polygon>
+                                    <path class="a" d="M34.6085,30.3365,23.9207,19.6486A12.9663,12.9663,0,1,0,19.6488,23.92l10.688,10.688ZM3,12.917a9.9173,9.9173,0,1,1,9.9175,9.917A9.9283,9.9283,0,0,1,3,12.917Z"></path>
+                                </svg>
+                            </a>
+                        
+                    </div>

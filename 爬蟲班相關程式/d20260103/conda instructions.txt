@@ -1,0 +1,12 @@
+conda create --name d20260103 python=3.11
+conda activate d20260103
+真實位置
+c:Users...
+cd 進入資料夾(目錄)
+ls 查看檔案
+dir 查看檔案
+conda info-e 查看該電腦建置的miniconda環境
+conda list 查看該環境下有哪些套件
+cls 清除螢幕
+pip install 安裝程式
+安裝伺服器 xampp

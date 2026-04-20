@@ -1,0 +1,27 @@
+20260117 課堂筆記
+
+網址: https://codedidi.org/article.php?article_id=125&classroom_id=22
+
+參數(頁數/日期/筆數/排序): ?article_id=125&classroom_id=22
+
+一組參數 (參數=值): article_id=125 或 classroom_id=22 
+
+多組參數之間用&串聯
+
+*爬蟲
+1.靜態
+2.動態
+	a.HTML+CSS
+	b.表單
+	c.頁面上的行為
+	
+*資料
+1.二維
+2.連續 json
+	a.表格
+	b.資料>清洗>csv檔
+	c.建立資料庫
+	d.建立介面>表單
+
+
+	
